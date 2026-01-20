@@ -1,0 +1,53 @@
+{
+  "name": "json-array-length",
+  "displayName": "JSON Array Length",
+  "description": "Displays the length of arrays in JSON files",
+  "version": "0.0.1",
+  "publisher": "antigravity",
+  "icon": "resources/icon.png",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:json"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "JSON Array Length",
+      "properties": {
+        "jsonLength.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/disable the extension"
+        },
+        "jsonLength.showArrayLength": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show item count for arrays"
+        },
+        "jsonLength.showObjectPropertyCount": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show property count for objects"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.96.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.2.0"
+  }
+}
