@@ -3,7 +3,11 @@
   "displayName": "JSON Array Length",
   "description": "Displays the length of arrays in JSON files",
   "version": "0.0.1",
-  "publisher": "antigravity",
+  "publisher": "Kelok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelokchan/json-length-extension.git"
+  },
   "icon": "resources/icon.png",
   "engines": {
     "vscode": "^1.96.0"
@@ -11,6 +15,18 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "json",
+    "array",
+    "length",
+    "count",
+    "size",
+    "object",
+    "properties"
+  ],
+  "bugs": {
+    "url": "https://github.com/kelokchan/json-length-extension/issues"
+  },
   "activationEvents": [
     "onLanguage:json"
   ],
