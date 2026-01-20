@@ -23,6 +23,10 @@ Simply open any `.json` or `.jsonc` file. The extension will automatically displ
 - **Arrays**: `Array: 5 items`
 - **Objects**: `Object: 3 properties`
 
+![Screenshot of Array Count](resources/screenshot_1.png)
+
+![Screenshot of Object Property Count](resources/screenshot_2.png)
+
 ## Extension Settings
 
 This extension contributes the following settings:
