@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import { visit } from 'jsonc-parser';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('JSON Array Length extension is now active');
+  console.log('JSON Length extension is now active');
 
   // Register the CodeLens provider for JSON files
   // Use scheme: '*' to match both file and untitled schemes

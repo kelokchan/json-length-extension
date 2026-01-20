@@ -1,8 +1,8 @@
 {
   "name": "json-array-length",
-  "displayName": "JSON Array Length",
-  "description": "Displays the length of arrays in JSON files",
-  "version": "0.0.1",
+  "displayName": "JSON Length",
+  "description": "Displays the length of arrays and property counts of objects in JSON files",
+  "version": "0.0.2",
   "publisher": "Kelok",
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
   "main": "./out/extension.js",
   "contributes": {
     "configuration": {
-      "title": "JSON Array Length",
+      "title": "JSON Length",
       "properties": {
         "jsonLength.enable": {
           "type": "boolean",

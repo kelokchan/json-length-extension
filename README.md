@@ -1,4 +1,4 @@
-# JSON Array Length & Object Count
+# JSON Length
 
 <!-- Allow for a standard VS Code extension banner here if you have one -->
 <div align="center">
